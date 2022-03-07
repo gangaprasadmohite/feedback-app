@@ -13,7 +13,7 @@ export const FeedbackProvider = ({ children }) => {
   return (
     <FeedbackContext.Provider
       value={{
-        feedback: feedback,
+        feedback,
       }}
     >
       {children}
